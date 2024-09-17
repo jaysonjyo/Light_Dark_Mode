@@ -23,7 +23,7 @@ class Change_themebutton extends StatelessWidget {
 
         // them rest
         IconButton(
-          icon: const Icon(Icons.settings),
+          icon: const Icon(Icons.refresh),
           onPressed: () {
             themeProvider.useSystemTheme(); // Reset to system theme
           },

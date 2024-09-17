@@ -44,7 +44,7 @@ class _FirstState extends State<First> {
           Icons.format_align_justify,
         ),
         title: Text(
-          "The wall",
+          "Rent vehicle ",
           style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
         ),
         centerTitle: true,
@@ -52,7 +52,6 @@ class _FirstState extends State<First> {
           //   IconButton(
 
           Change_themebutton()
-
           //       onPressed: () {
           //         setState(() {
           //           iconbool = !iconbool;
@@ -69,7 +68,7 @@ class _FirstState extends State<First> {
         child: Column(
           children: [
             SizedBox(
-              height: 30,
+              height: 15,
             ),
             Container(
               width: double.infinity,
